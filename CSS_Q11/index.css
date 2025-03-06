@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+        .box {
+            width: 200px;
+            padding: 20px;
+            border: 5px solid black;
+            margin: 10px;
+        }
+        .box1 {
+            background-color: lightblue;
+            box-sizing: content-box;
+            border-style: solid;
+        }
+        .box2 {
+            background-color: lightcoral;
+            box-sizing: border-box;
+            border-style: dashed;
+            padding: 30px;
+            margin: 20px;
+        }
+        .box3 {
+            background-color: lightgreen;
+            border-style: dotted;
+            padding: 10px;
+            margin: 30px;
+        }
+ 
